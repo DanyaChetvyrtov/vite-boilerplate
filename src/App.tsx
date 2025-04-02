@@ -20,6 +20,7 @@ export const App = () => {
                 <Link to={'welcome'}>welcome</Link>
             </div>
 
+            <div>Greeting from Danil</div>
             <Routes>
                 <Route path="/about" element={<About />} />
                 <Route path="/welcome" element={<Welcome />} />
