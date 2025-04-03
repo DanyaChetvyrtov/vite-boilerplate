@@ -13,6 +13,17 @@ export const Welcome = () => {
             <h1>
                 Welcome PAGE
             </h1>
+            <div style={{
+                padding: '10px',
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center'
+            }}>
+                <div>
+                    Hello :)
+
+                </div>
+            </div>
         </div>
 
     );
