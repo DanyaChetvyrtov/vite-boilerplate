@@ -2,6 +2,7 @@ import {useState} from "react";
 import {Link, Routes, Route} from "react-router-dom";
 import {About} from "./pages/About";
 import {Welcome} from "./pages/Welcome";
+import TestComponent from "./TestComponent.tsx";
 
 export const App = () => {
     const [count, setCount] = useState(0)
@@ -21,6 +22,11 @@ export const App = () => {
             </div>
 
             <div>Greeting from Danil</div>
+
+            <TestComponent>
+                It's test component
+            </TestComponent>
+
             <Routes>
                 <Route path="/about" element={<About />} />
                 <Route path="/welcome" element={<Welcome />} />

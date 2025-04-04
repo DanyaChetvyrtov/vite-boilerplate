@@ -21,7 +21,6 @@ export const Welcome = () => {
             }}>
                 <div>
                     Hello :)
-
                 </div>
             </div>
         </div>
